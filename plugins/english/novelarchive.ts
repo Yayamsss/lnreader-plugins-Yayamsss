@@ -112,7 +112,7 @@ class NovelArchivePlugin implements Plugin.PluginBase {
     const data = await res.json();
 
     const n = data?.novel ?? {};
-    const chapterNames: string[] = data?.chapter_names ?? [];
+    const chapterNames: string[] = n?.chapter_names ?? [];
 
     const chapters: Plugin.ChapterItem[] = chapterNames.map(
       (chName: string, i: number) => ({
