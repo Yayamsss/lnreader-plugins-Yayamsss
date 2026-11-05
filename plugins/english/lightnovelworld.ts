@@ -22,7 +22,7 @@ export class LightNovelWorldPlugin implements Plugin.PluginBase {
     id = "lightnovelworld";
     name = "LightNovelWorld";
     icon = "src/en/lightnovelworld/icon.png";
-    site = "https://lightnovelworld.org/";
+    site = "https://lightnovelworld.net/";
     version = "1.0.2";
 
     filters = {
